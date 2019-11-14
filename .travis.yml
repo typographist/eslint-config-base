@@ -2,14 +2,14 @@ language: node_js
 cache: yarn
 node_js:
   - node
-  - "10"
+  - '10'
 os:
   - linux
   - osx
 branches:
   only:
     - master
-    - "/^greenkeeper/.*$/"
+    - '/^greenkeeper/.*$/'
 script:
   - npm test
 after_success:
@@ -21,4 +21,4 @@ jobs:
       node_js: node
       script:
         - npx semantic-release
-      env:
+      env: cnbDXsbBsKoLZ2D6Iic87YZJ1/U6AdXh+dFsUJkXxcfnLRBx/ew5ndDJi7lD+VOdmd9I14xp88MTdkWN92tylKPHut9zGE/xozkL6ElCVdf+suX8mJSJdkWFX+pn7BqhX+dK5ser1Kg19Ysa+RA4YsuiQ5xG3noBsBzfjjHlEdf1srKnM2PcKuYVIfh3cFgvO6UKxPC4xsi03REqLjoEeZoVCK9ky20HXY8ebFTUDYLRH9U4CUPjhZ85c7WPlVEVFQu9EgmE/0wcvi6vBOM8t9sLLA/jy7E8+UQ3ZOuCAur4hhCSDmMzGivWxZUgO17iXL9VVYfxgnyR8FB6MGnXPakZ1dwknPo3veHxnEzTqDCE+TUVxRj9XP/2qipFV11Z2PFDWJS7QqinKqNXZRkD1UIlDrVcHg4TXKWR6obzyidekqpKSoB4IKz1DxPhl58IFr4PcgJ/2RdlXNCG4xZHEuPBz9TQJimDSuyXbDpZKXu+ml4HD9gk+E5//uFi/yaNeAXgUxmOHI7P4b2fi3ECJU3b9t78Rhj06scBLZ51Ty2/rBC/Z7nN2IZJk0cgRSSnJk2iIOGGMiP/cpvpTcCT8+3AYIg3serFFwV75pAWAFGyAwi+EYqbtQs+cB18BtWtVszqu1tBYeaKpzIa9i/FI9BPuQpdo4/Kbuh36BrEFQ4=
